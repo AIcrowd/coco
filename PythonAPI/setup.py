@@ -16,6 +16,7 @@ ext_modules = [
 ]
 
 setup(name='pycocotools',
+      install_requires=['Cython'],
       packages=['pycocotools'],
       package_dir = {'pycocotools': 'pycocotools'},
       version='2.0',
